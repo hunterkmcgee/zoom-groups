@@ -5,14 +5,14 @@ There is a plan to implement a GUI so that all professors will feel comfortable 
 
 ## Dependencies
 **Necessary Python Packages**
-- csv
-- BeautifulSoup4 (bs4)
+  - csv
+  - BeautifulSoup4 (bs4)
 
 ## Instructions
 **Generating CSV for Zoom Breakout Rooms**
 
 1. Write and save a .txt file that specifies groups and members (see below)
-  - Save this file as "group.txt" in the same directory as the .py file
+    - Save this file as "group.txt" in the same directory as the .py file
 
 *Names **must** be identical to how they appear on D2L classlist.*
 *Groups must be separated by a blank line.*
@@ -20,14 +20,14 @@ There is a plan to implement a GUI so that all professors will feel comfortable 
 ![](https://github.com/hunterkmcgee/zoom-groups/blob/master/img/sample_groups.png)
 
 2. Save classlist website as classlist.html
-  - Go to the D2L course page
-  - Click on &quot;Communication&quot; drop-down menu
-  - Select &quot;Classlist&quot;
-  - Right-click on a blank area, and select &quot;Save as&quot;
-  - Name the file &quot;classlist.html&quot;, save to same directory as the first .txt file
+    - Go to the D2L course page
+    - Click on &quot;Communication&quot; drop-down menu
+    - Select &quot;Classlist&quot;
+    - Right-click on a blank area, and select &quot;Save as&quot;
+    - Name the file &quot;classlist.html&quot;, save to same directory as the first .txt file
 3. Run python script by typing &quot;python generateGroupsCsv.py&quot; in command line.
 4. Open &quot;groups.csv&quot; and make sure everything is saved properly.
-  - If a cell looks like &#39;\*\* LastName – FirstName \*\*&#39;, then either the student is not on the course roster or the names do not align between the two files.
+    - If a cell looks like &#39;\*\* LastName – FirstName \*\*&#39;, then either the student is not on the course roster or the names do not align between the two files.
 
 **Loading CSV file into Zoom**
 
